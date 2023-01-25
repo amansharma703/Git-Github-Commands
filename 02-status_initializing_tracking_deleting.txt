@@ -1,0 +1,18 @@
+//Status , Initializing, Tracking and Deleting
+
+1: git status              // Displays the state of the working directory and the staging area
+
+2: git init                // Initialized empty Git repository
+
+3: git add <file_name>     // for commiting file or staging individual file
+
+4: git add --a             // All files into staging area
+
+5: git add .               // All files into staging area
+
+6: git commit -m "Initial Commit"  //message , Commit all staged files to versioned history
+
+7: git log                 // Show commits , full change history
+
+8: rm -rf .git             // Delete .git folder//stop tracking no longer a git repository
+
